@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Z-Parameter to Y, H, and ABCD Calculator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Z-Parameter to Y, H, and ABCD Calculator</h1>
+    
+    <div class="image-container">
+      <img src="calculator.png" alt="Your Image">
+    </div>
+
+    <div class="input-container">
+      <label for="z11">Z11:</label>
+      <input type="number" id="z11" placeholder="Z11">
+      <label for="z12">Z12:</label>
+      <input type="number" id="z12" placeholder="Z12">
+      <label for="z21">Z21:</label>
+      <input type="number" id="z21" placeholder="Z21">
+      <label for="z22">Z22:</label>
+      <input type="number" id="z22" placeholder="Z22">
+      <button onclick="calculateParameters()">Calculate Parameters</button>
+    </div>
+
+    <div id="result"></div>
+
+    <footer>Made by Keshav, Class - E7, Roll Number - 20814802822</footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
